@@ -1,0 +1,14 @@
+D:\Tecsup- Ciclos\V Ciclo-Tecsup\Aplicaciones Moviles Multiplataforma\Laboratorios\DemoRectangulo\DemoRectangulo\bin\Debug\netcoreapp3.1\DemoRectangulo.exe
+D:\Tecsup- Ciclos\V Ciclo-Tecsup\Aplicaciones Moviles Multiplataforma\Laboratorios\DemoRectangulo\DemoRectangulo\bin\Debug\netcoreapp3.1\DemoRectangulo.deps.json
+D:\Tecsup- Ciclos\V Ciclo-Tecsup\Aplicaciones Moviles Multiplataforma\Laboratorios\DemoRectangulo\DemoRectangulo\bin\Debug\netcoreapp3.1\DemoRectangulo.runtimeconfig.json
+D:\Tecsup- Ciclos\V Ciclo-Tecsup\Aplicaciones Moviles Multiplataforma\Laboratorios\DemoRectangulo\DemoRectangulo\bin\Debug\netcoreapp3.1\DemoRectangulo.runtimeconfig.dev.json
+D:\Tecsup- Ciclos\V Ciclo-Tecsup\Aplicaciones Moviles Multiplataforma\Laboratorios\DemoRectangulo\DemoRectangulo\bin\Debug\netcoreapp3.1\DemoRectangulo.dll
+D:\Tecsup- Ciclos\V Ciclo-Tecsup\Aplicaciones Moviles Multiplataforma\Laboratorios\DemoRectangulo\DemoRectangulo\bin\Debug\netcoreapp3.1\DemoRectangulo.pdb
+D:\Tecsup- Ciclos\V Ciclo-Tecsup\Aplicaciones Moviles Multiplataforma\Laboratorios\DemoRectangulo\DemoRectangulo\obj\Debug\netcoreapp3.1\DemoRectangulo.csproj.AssemblyReference.cache
+D:\Tecsup- Ciclos\V Ciclo-Tecsup\Aplicaciones Moviles Multiplataforma\Laboratorios\DemoRectangulo\DemoRectangulo\obj\Debug\netcoreapp3.1\DemoRectangulo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tecsup- Ciclos\V Ciclo-Tecsup\Aplicaciones Moviles Multiplataforma\Laboratorios\DemoRectangulo\DemoRectangulo\obj\Debug\netcoreapp3.1\DemoRectangulo.AssemblyInfoInputs.cache
+D:\Tecsup- Ciclos\V Ciclo-Tecsup\Aplicaciones Moviles Multiplataforma\Laboratorios\DemoRectangulo\DemoRectangulo\obj\Debug\netcoreapp3.1\DemoRectangulo.AssemblyInfo.cs
+D:\Tecsup- Ciclos\V Ciclo-Tecsup\Aplicaciones Moviles Multiplataforma\Laboratorios\DemoRectangulo\DemoRectangulo\obj\Debug\netcoreapp3.1\DemoRectangulo.csproj.CoreCompileInputs.cache
+D:\Tecsup- Ciclos\V Ciclo-Tecsup\Aplicaciones Moviles Multiplataforma\Laboratorios\DemoRectangulo\DemoRectangulo\obj\Debug\netcoreapp3.1\DemoRectangulo.dll
+D:\Tecsup- Ciclos\V Ciclo-Tecsup\Aplicaciones Moviles Multiplataforma\Laboratorios\DemoRectangulo\DemoRectangulo\obj\Debug\netcoreapp3.1\DemoRectangulo.pdb
+D:\Tecsup- Ciclos\V Ciclo-Tecsup\Aplicaciones Moviles Multiplataforma\Laboratorios\DemoRectangulo\DemoRectangulo\obj\Debug\netcoreapp3.1\DemoRectangulo.genruntimeconfig.cache
