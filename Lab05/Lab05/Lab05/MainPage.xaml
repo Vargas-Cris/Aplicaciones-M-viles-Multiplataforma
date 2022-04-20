@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab05.MainPage">
+
+    <StackLayout>
+        <StackLayout>
+            <Button x:Name="Item3" BackgroundColor="GreenYellow" Text="Datepicker"/>
+            <Button x:Name="Item14" Text="ListviewSource"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+
+            <StackLayout>
+                <Button x:Name="Item1" BackgroundColor="Red" TextColor="White" Text="ButtonDemo"/>
+                <Button x:Name="Item2" BackgroundColor="PaleTurquoise" Text="ButtonCode"/>
+                <Button x:Name="Item4" BackgroundColor="Bisque" Text="EditorDemo"/>
+                <Button x:Name="Item5" BackgroundColor="Blue" TextColor="White" Text="EditorCode"/>
+                <Button x:Name="Item6" BackgroundColor="Yellow" Text="EntryDemo"/>
+                <Button x:Name="Item7" BackgroundColor="Aquamarine" Text="EntryCode"/>
+            </StackLayout>
+            <StackLayout>
+                <Button x:Name="Item8" BackgroundColor="PaleVioletRed" Text="LabelDemo"/>
+                <Button x:Name="Item9" BackgroundColor="DarkGoldenrod" TextColor="White" Text="LabelCode"/>
+                <Button x:Name="Item10" BackgroundColor="Navy" TextColor="White" Text="LocalImage"/>
+                <Button x:Name="Item11" BackgroundColor="Coral" Text="EmbeddedImage"/>
+            </StackLayout>
+        </StackLayout>
+       </StackLayout>
+</ContentPage>
