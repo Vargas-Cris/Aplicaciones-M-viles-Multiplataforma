@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab06.ListViewPerson">
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView x:Name="PersonView"
+                      ItemsSource="{Binding Person}">
+                <ListView.ItemTemplate>
+                    
+                    <DataTemplate>
+                          <TextCell
+                            Detail="Personas"
+                                  DetailColor="Black"
+                                  TextColor="Blue"
+                              Text="{Binding DisplayName}">                            
+
+
+                        </TextCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+        
+</ContentPage>
