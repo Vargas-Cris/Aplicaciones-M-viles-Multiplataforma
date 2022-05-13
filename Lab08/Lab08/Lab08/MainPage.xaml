@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab08.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Laboratorio 08" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label FontSize="Title" Padding="30,10,30,10" HorizontalTextAlignment="Center"/>
+        <StackLayout>
+            <Button x:Name="item01" Text="Explicit Demo" />
+            <Button x:Name="item02" Text="Explicit Control Demo" />
+            <Button x:Name="item03" Text="Implicit Demo" />
+            <Button x:Name="item04" Text="Implicit Control Demo" />
+            <Button x:Name="item05" Text="Global Demo" />
+            <Button x:Name="item06" Text="Inheritance Demo" />
+            <Button x:Name="item07" Text=" CSS Style" />
+
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
