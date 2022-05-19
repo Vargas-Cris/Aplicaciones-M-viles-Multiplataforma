@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab09.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Laboratorio 09" HorizontalTextAlignment="Center" TextColor="Black" FontSize="36"/>
+        </Frame>
+        <Label FontSize="Title" Padding="30,10,30,10" HorizontalTextAlignment="Center"/>
+        <StackLayout>
+            <Button x:Name="item01" Text="Tap Demo" BackgroundColor="LightBlue"/>
+            <Button x:Name="item02" Text="Pinch Demo" BackgroundColor="Salmon" />
+            <Button x:Name="item03" Text="Pan Demo" BackgroundColor="YellowGreen"/>
+            <Button x:Name="item04" Text="Swipe Demo" BackgroundColor="Yellow"/>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
