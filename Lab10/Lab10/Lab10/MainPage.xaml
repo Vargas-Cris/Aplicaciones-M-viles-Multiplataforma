@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab10.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3"  CornerRadius="0">
+            <Label Text="Laboratorio 10" HorizontalTextAlignment="Center" TextColor="Black" FontSize="37"/>
+        </Frame>
+        <Label FontSize="Title" Padding="30,10,30,10" HorizontalTextAlignment="Center"/>
+        <StackLayout Orientation="Vertical">
+            <Button x:Name="item1" Text="View to View Demo"/>
+            <Button x:Name="item2" Text="Binding Mode Demo"/>
+            <Button x:Name="item3" Text="Picker Demo"/>
+            <Button x:Name="item4" Text="List View Demo"/>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
+
+
