@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab14.Views.MainPage"
+              xmlns:viewModel="clr-namespace:Lab14.ViewModels">
+    
+    <ContentPage.BindingContext>
+        <viewModel:MainViewModel></viewModel:MainViewModel>
+    </ContentPage.BindingContext>
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="CRUD Estudiantes" HorizontalTextAlignment="Center" FontAttributes="Bold" TextColor="White" FontSize="30"/>
+        </Frame>
+        <Label Text="Registra tus datos por favor" TextColor="DarkBlue" FontSize="20" HorizontalTextAlignment="Center" FontAttributes="Italic"></Label>                       
+        <Entry Placeholder="Nombres" Text="{Binding Nombres}"></Entry>
+        <Entry Placeholder="Descripción" Text="{Binding Descripcion}"></Entry>
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+            <Button CornerRadius="100" Text="Agregar" BackgroundColor="#65C065" FontAttributes="Bold" Command="{Binding InsertRowCommand}" TextColor="White"></Button>
+            <Button CornerRadius="100" Text="Limpiar lista" BackgroundColor="DarkRed" FontAttributes="Bold" Command="{Binding DeleteAllRowCommand}" TextColor="White"></Button>
+        </StackLayout>
+
+
+
+        <ListView ItemsSource="{Binding ListEstudiantes}" HasUnevenRows="True" BackgroundColor="WhiteSmoke">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+
+                            <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                                <Label Text="{Binding EstudianteNombres}" TextColor="Black"></Label>
+                                <Label Text="{Binding EstudianteDescripcion}"></Label>
+
+                            </StackLayout>
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="UpdateRow_Tapped" CommandParameter="{Binding .}"></TapGestureRecognizer>
+                                <SwipeGestureRecognizer Swiped="DeleteRow_Swiped" Direction="Right" CommandParameter="{Binding .}"></SwipeGestureRecognizer>
+                            </Frame.GestureRecognizers>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+    </StackLayout>
+
+</ContentPage>
